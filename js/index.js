@@ -20,6 +20,8 @@ app.controller('mainController', ($scope, $http, $sce) => {
         document.getElementById('hr').href = response.data.links.coding.Hackerrank;
         document.getElementById('he').href = response.data.links.coding.Hackerearth;
 
+        document.getElementById('ghf').href = response.data.repo;
+
         $scope.name =  firstName + ' ' +  lastName;
 
         $scope.description = $sce.trustAsHtml(description);
