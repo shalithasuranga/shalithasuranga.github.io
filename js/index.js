@@ -14,10 +14,15 @@ app.controller('mainController', ($scope, $http, $sce) => {
         document.getElementById('li').href = response.data.links.professional.LinkedIn;
 
         document.getElementById('fb').href = response.data.links.social.Facebook;
+        document.getElementById('tw').href = response.data.links.social.Twitter;
+        document.getElementById('it').href = response.data.links.social.Instagram;
 
+        document.getElementById('gh').href = response.data.links.coding.GitHub;
+        document.getElementById('hr').href = response.data.links.coding.Hackerrank;
+        document.getElementById('he').href = response.data.links.coding.Hackerearth;
 
         $scope.name =  firstName + ' ' +  lastName;
-        console.log(description);
+
         $scope.description = $sce.trustAsHtml(description);
     });
 });
