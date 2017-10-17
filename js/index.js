@@ -1,6 +1,6 @@
 
-//let url = window.location.origin;
-let url = window.location.origin + '/shalithasuranga.github.io';
+let url = window.location.origin;
+//let url = window.location.origin + '/shalithasuranga.github.io';
 
 var app = angular.module('profilePage', ['ngSanitize']);
 app.controller('mainController', ($scope, $http, $sce) => {
