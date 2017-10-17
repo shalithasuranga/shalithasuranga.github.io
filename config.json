@@ -1,10 +1,10 @@
 {
-	"repo" : "https://github.com/shalithasuranga/shalithasuranga.github.io" ,
+	"repo" : "https://github.com/shalithasuranga/shalithasuranga.github.io" 
 	
-	"personalDetails" : {
+	, "personalDetails" : {
 	    "firstName" : "Shalitha",
 	    "lastName" : "Suranga",
-	    "description" : "Coding enthusiast 😋 <br/>FOSS Lover ❤️️ <br/>Software Developer ⌨" 
+	    "description" : "Coding enthusiast 😋 <br/>FOSS Lover ❤️️ <br/>Software Developer 💻<br/><br/>#Software" 
 	}
 
 	, "media" : {
@@ -24,6 +24,12 @@
 			"GitHub" : "https://github.com/shalithasuranga",
 			"Hackerrank" : "https://www.hackerrank.com/shalithasuranga",
 			"Hackerearth" : "https://www.hackerearth.com/@shalithasuranga"
+		},
+		"writing" : {
+			"TechBlog" : "http://devtalks.github.io/",
+			"PersonalBlog" : "https://shalithasuranga.blogspot.com/",
+			"Stack" : "https://stackoverflow.com/users/3565513/shalitha-suranga",
+			"Quora" : "https://www.quora.com/profile/Shalitha-Suranga"
 		}
 	}
 	
