@@ -1,10 +1,78 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Start here!!</title>
-  </head>
-  <body>
-    <h1>Just simple boilerplate!</h1>
-  </body>
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!--><html><!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Shalitha Suranga</title>
+	<meta name="author" content="Shalitha Suranga">
+	<meta name="description" content="Profile of Shalitha Suranga">
+	<meta name="keywords" content="developer, programming, coding enthusiast, software developer, programmer">
+</head>
+<body>
+	<header></header>
+	<br/>
+	<br/>
+	<div class="container" ng-app="profilePage" ng-controller="mainController">
+
+		<div class="row" style="padding: 12px;">
+			<div class="left col-lg-3 col-md-6 col-sm-12" >
+				<img src="" class="img-responsive rounded-circle" id="profileImageNode" />
+				<br/>
+				<br/>
+				<h3>{{name}}</h3>
+				<br/>
+				<h6 ng-bind-html="description"></h6>
+				<br/>
+				<br/>
+			</div>
+			<div class="right col-lg-9 col-md-6 col-sm-12">
+				<br/>
+				<h5>Professional</h5>
+
+				<ul class="normal">
+					<li>
+						<a href="" id="li" target="_blank">Linkedin</a>
+					</li>
+				</ul>
+				<br/>
+				<h5>Social</h5>
+
+				<ul class="normal">
+					<li>
+						<a href="" id="fb" target="_blank">Facebook</a> &middot;
+						<a href="" id="tw" target="_blank">Twitter</a> &middot;
+						<a href="" id="it" target="_blank">Instagram</a>
+					</li>
+				</ul>
+
+				<br/>
+				<h5>Coding</h5>
+
+				<ul class="normal">
+					<li>
+						<a href="" id="gh" target="_blank">Github</a> &middot;
+						<a href="" id="hr" target="_blank">HackerRank</a> &middot;
+						<a href="" id="he" target="_blank">Hackerearth</a>
+					</li>
+				</ul>
+
+				<hr/>
+				<div class="text-center">
+					<a href="" class="btn btn-success">Download Resume</a>
+				</div>
+			</div>
+		</div>		
+		
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-sanitize.js"></script>
+	<script src="js/index.js"></script>
+</body>
 </html>
