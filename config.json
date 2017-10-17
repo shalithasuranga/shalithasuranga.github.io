@@ -1,0 +1,30 @@
+{
+	"personalDetails" : {
+	    "firstName" : "Shalitha",
+	    "lastName" : "Suranga",
+	    "description" : "Coding enthusiast 😋 <br/>FOSS Lover ❤️️ <br/>Software developer" 
+	}
+
+	, "media" : {
+		"profileImage" : "https://avatars3.githubusercontent.com/u/21212214?s=460&v=4"
+	}
+
+	, "links" : {
+		"social" : {
+			"Facebook" : "https://www.fb.com/shalithasuranga",
+			"Twitter" : "https://www.twitter.com/ShalithaSuranga",
+			"Instagram" : "https://www.instagram.com/shalithasuranga"
+		},
+		"professional" : {
+			"LinkedIn" : "https://www.linkedin.com/in/shalithasuranga"
+		},
+		"coding" : {
+			"GitHub" : "https://github.com/shalithasuranga",
+			"Hackerrank" : "https://www.hackerrank.com/shalithasuranga",
+			"Hackerearth" : "https://www.hackerearth.com/@shalithasuranga"
+		}
+	}
+	
+
+
+}
