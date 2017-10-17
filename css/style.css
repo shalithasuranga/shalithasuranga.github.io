@@ -1,0 +1,24 @@
+body{
+	background-color: #333333;
+}
+
+body > .container{
+	background-color: rgba(255,255,255,0.8);
+	-webkit-box-shadow: 0px 0px 12px rgba(0,0,0,0.45);
+	-moz-box-shadow: 0px 0px 12px rgba(0,0,0,0.45);
+	box-shadow: 0px 0px 12px rgba(0,0,0,0.45);
+}
+
+.left {
+
+}
+
+#profileImageNode {
+	width:100%
+}
+
+ul.normal {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
