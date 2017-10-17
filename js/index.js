@@ -20,6 +20,11 @@ app.controller('mainController', ($scope, $http, $sce) => {
         document.getElementById('hr').href = response.data.links.coding.Hackerrank;
         document.getElementById('he').href = response.data.links.coding.Hackerearth;
 
+        document.getElementById('db').href = response.data.links.writing.TechBlog;
+        document.getElementById('pb').href = response.data.links.writing.PersonalBlog;
+        document.getElementById('st').href = response.data.links.writing.Stack;
+        document.getElementById('qr').href = response.data.links.writing.Quora;
+
         document.getElementById('ghf').href = response.data.repo;
 
         $scope.name =  firstName + ' ' +  lastName;
