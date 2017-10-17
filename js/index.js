@@ -1,4 +1,3 @@
-
 let url = window.location.origin;
 //let url = window.location.origin + '/shalithasuranga.github.io';
 
