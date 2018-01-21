@@ -26,6 +26,8 @@ app.controller('mainController', ($scope, $http, $sce) => {
         document.getElementById('qr').href = response.data.links.writing.Quora;
 
         document.getElementById('ghf').href = response.data.repo;
+        
+        document.getElementById('cvd').href = response.data.personalDetails.cv;
 
         $scope.name =  firstName + ' ' +  lastName;
 
