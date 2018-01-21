@@ -4,7 +4,8 @@
 	, "personalDetails" : {
 	    "firstName" : "Shalitha",
 	    "lastName" : "Suranga",
-	    "description" : "Coding enthusiast 😋 <br/>FOSS Lover ❤️️ <br/>Software Developer 💻<br/><br/>#Software" 
+	    "description" : "Coding enthusiast 😋 <br/>FOSS Lover ❤️️ <br/>Software Developer 💻<br/><br/>#Software",
+        "cv" : "download/temp_cv.pdf"
 	}
 
 	, "media" : {
